@@ -1,0 +1,37 @@
+.rth-respiratory {
+  /* border: 1px solid red; */
+  width: 210px;
+  height: 210px;
+  margin: 10px;
+  background: #e0f3fa 0% 0% no-repeat padding-box;
+  border-radius: 12px;
+  opacity: 1;
+}
+.rth-temperature {
+  /* border: 1px solid red; */
+  width: 210px;
+  height: 210px;
+  margin: 10px;
+  background: #ffe6e9 0% 0% no-repeat padding-box;
+  border-radius: 12px;
+  opacity: 1;
+}
+
+.rth-heartbpm {
+  /* border: 1px solid red; */
+  width: 210px;
+  height: 210px;
+  margin: 10px;
+  background: #ffe6f1 0% 0% no-repeat padding-box;
+  border-radius: 12px;
+  opacity: 1;
+}
+
+.rth-container {
+  width: 720px;
+  display: flex;
+  flex-direction: row;
+
+  justify-content: space-between;
+  border-radius: 1px solid red;
+}

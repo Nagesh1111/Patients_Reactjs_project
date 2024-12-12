@@ -1,0 +1,36 @@
+.bp-main {
+  width: 700px;
+  height: 300px;
+  margin: 10px;
+  /* border: 1px solid black; */
+  display: flex;
+  justify-content: space-between;
+  background: #f4f0fe 0% 0% no-repeat padding-box;
+  border-radius: 12px;
+  opacity: 1;
+}
+
+.bp-right {
+  height: 300px;
+  width: 200px;
+  margin-bottom: 10px;
+  /* border: 1px solid red; */
+}
+.avg {
+  /* border: 1px solid red; */
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.avg img {
+  width: 10px;
+  height: 10px;
+}
+
+.dot {
+  display: flex;
+  /* border: 1px solid red; */
+  height: 30px;
+  justify-content: space-around;
+  align-items: center;
+}

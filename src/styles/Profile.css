@@ -1,0 +1,75 @@
+/* Profile.css */
+.profile {
+  width: 300px;
+  height: 740px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.profile-img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid #4caf50;
+}
+
+.profile-name {
+  margin-top: 10px;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.profile-info {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 15px; /* Space between each section */
+}
+
+.info-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 1.1rem;
+  justify-content: flex-start; /* Align icons to the left */
+}
+
+.info-item img {
+  width: 40px; /* Adjust the size of icons */
+  height: 40px;
+}
+
+.info-item .info-label {
+  font-size: 1rem;
+  color: #888;
+  flex-shrink: 0; /* Prevent the label from shrinking */
+}
+
+.info-item .info-value {
+  font-weight: bold;
+  color: #333;
+  margin-left: 5px; /* Add a little space between the label and the value */
+}
+
+.show-all-btn {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.show-all-btn:hover {
+  background-color: #45a049;
+}

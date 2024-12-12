@@ -1,0 +1,13 @@
+.dia {
+  width: 730px;
+  height: 650px;
+  /* border: 1px solid red; */
+  background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border-radius: 16px;
+  opacity: 1;
+}
+
+.list {
+  margin-top: 100px;
+}

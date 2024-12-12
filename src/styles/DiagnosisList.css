@@ -1,0 +1,62 @@
+/* DiagnosisList.css */
+
+.diagnosis-list {
+  margin-top: 70px;
+  width: 690px;
+  height: 350px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+}
+
+.list-title {
+  font-size: 1.8rem;
+  font-weight: bold;
+  text-align: left;
+  margin-bottom: 20px;
+  color: #4caf50;
+}
+
+.table {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-height: 250px; /* Set the max height of the table */
+  overflow-y: auto; /* Enables vertical scrolling */
+}
+
+.table-row {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0;
+  border-bottom: 1px solid #ddd; /* Thin line between rows */
+}
+
+.table-row.header {
+  font-weight: bold;
+  color: #333;
+  border-bottom: 2px solid #4caf50; /* Thick line for header */
+}
+
+.table-cell {
+  width: 30%;
+  text-align: left;
+  padding: 0 10px;
+}
+
+.table-cell:first-child {
+  width: 40%; /* Problem/Diagnosis column takes more space */
+}
+
+.table-cell:last-child {
+  text-align: center;
+}
+
+.table-row:hover {
+  background-color: #f9f9f9; /* Hover effect for each row */
+}

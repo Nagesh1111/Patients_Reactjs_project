@@ -1,0 +1,65 @@
+/* LabTestResults.css */
+
+.lab-test-results {
+  width: 300px;
+  background-color: white;
+  border-radius: 10px;
+  height: 250px; /* Fixed height for the container */
+  margin-top: 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+}
+
+.results-title {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #4caf50;
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.test-list {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  max-height: 150px; /* Set a maximum height for the list */
+  overflow-y: auto; /* Enable vertical scrolling */
+}
+
+.test-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+  border-bottom: 1px solid #ddd; /* Thin line between items */
+}
+
+.test-name {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #333;
+}
+
+.download-link {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #4caf50;
+}
+
+.download-icon {
+  font-size: 1.5rem;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.test-item:hover .download-icon {
+  color: #45a049;
+}
+
+.test-item:hover {
+  background-color: #f9f9f9; /* Hover effect for each item */
+}
